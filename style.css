@@ -10,7 +10,7 @@
 --roboto-mono:'Roboto Mono', monospace;
 }
 
-.{
+{
         font-weight: 400;
 }
 
@@ -56,4 +56,25 @@ body{
 .conteudo{
         max-width: 1200px;
         margin: 0 auto;
+}
+
+.parametro{
+        background-color: var(--fundo-texto);
+        border: 2px solid var(--roboto-mono);
+        margin-top: 32px;
+}
+
+.parametro-titulo{
+        font-family: var(--roboto-mono);
+        font-size: 28px;
+}
+
+.parametro-senha__titulo{
+        font-size: 24px;
+}
+
+.parametro-coluna__senha{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
 }
